@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailValidation", "EmailVal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decomposing", "Decomposing\Decomposing.csproj", "{64425EC3-052C-4CF2-B2D2-8929A9B21519}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingSeasonStats", "CalculatingSeasonStats\CalculatingSeasonStats.csproj", "{3E03B38D-AFF6-4A53-A438-5226B23A61C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{64425EC3-052C-4CF2-B2D2-8929A9B21519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64425EC3-052C-4CF2-B2D2-8929A9B21519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64425EC3-052C-4CF2-B2D2-8929A9B21519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E03B38D-AFF6-4A53-A438-5226B23A61C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E03B38D-AFF6-4A53-A438-5226B23A61C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E03B38D-AFF6-4A53-A438-5226B23A61C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E03B38D-AFF6-4A53-A438-5226B23A61C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
