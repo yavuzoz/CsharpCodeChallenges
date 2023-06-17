@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decomposing", "Decomposing\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingSeasonStats", "CalculatingSeasonStats\CalculatingSeasonStats.csproj", "{3E03B38D-AFF6-4A53-A438-5226B23A61C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingVowels", "CountingVowels\CountingVowels.csproj", "{CAFDDA5D-234F-45B3-A67A-40AC4D201AAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3E03B38D-AFF6-4A53-A438-5226B23A61C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E03B38D-AFF6-4A53-A438-5226B23A61C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E03B38D-AFF6-4A53-A438-5226B23A61C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFDDA5D-234F-45B3-A67A-40AC4D201AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFDDA5D-234F-45B3-A67A-40AC4D201AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFDDA5D-234F-45B3-A67A-40AC4D201AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFDDA5D-234F-45B3-A67A-40AC4D201AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
