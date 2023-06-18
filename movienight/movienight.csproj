@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8FCC619D-55CC-49C9-849C-A7E281304212}</ProjectGuid>
+    <ProjectGuid>{CA5F4712-4457-495C-974C-618FAFB4A3CD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SelectaAutomat</RootNamespace>
-    <AssemblyName>SelectaAutomat</AssemblyName>
+    <RootNamespace>movienight</RootNamespace>
+    <AssemblyName>movienight</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Movie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
