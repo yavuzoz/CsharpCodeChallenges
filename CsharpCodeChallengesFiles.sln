@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverseName", "reverseName\reverseName.csproj", "{AF710DCD-CE85-4481-9E95-CC3C5E5F1735}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MehrZeichenDrucken", "MehrZeichenDrucken\MehrZeichenDrucken.csproj", "{73690D4D-E030-4971-911E-52E727E8E3A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{AF710DCD-CE85-4481-9E95-CC3C5E5F1735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF710DCD-CE85-4481-9E95-CC3C5E5F1735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF710DCD-CE85-4481-9E95-CC3C5E5F1735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73690D4D-E030-4971-911E-52E727E8E3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73690D4D-E030-4971-911E-52E727E8E3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73690D4D-E030-4971-911E-52E727E8E3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73690D4D-E030-4971-911E-52E727E8E3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
