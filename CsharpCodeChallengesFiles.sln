@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "findGrosseZahl", "findGrosseZahl\findGrosseZahl.csproj", "{142D1342-B10E-4247-BE49-FE6E33EBFB2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gerade-ungeradeZahl", "gerade-ungeradeZahl\gerade-ungeradeZahl.csproj", "{9480F004-23E0-4573-A442-7A6EFB931695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teufel-kreis", "ConsoleApp1\teufel-kreis.csproj", "{B5EFC8FE-1DC6-418C-A24B-4E043ECF58D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{142D1342-B10E-4247-BE49-FE6E33EBFB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{142D1342-B10E-4247-BE49-FE6E33EBFB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{142D1342-B10E-4247-BE49-FE6E33EBFB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9480F004-23E0-4573-A442-7A6EFB931695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9480F004-23E0-4573-A442-7A6EFB931695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9480F004-23E0-4573-A442-7A6EFB931695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9480F004-23E0-4573-A442-7A6EFB931695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EFC8FE-1DC6-418C-A24B-4E043ECF58D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EFC8FE-1DC6-418C-A24B-4E043ECF58D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EFC8FE-1DC6-418C-A24B-4E043ECF58D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EFC8FE-1DC6-418C-A24B-4E043ECF58D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
