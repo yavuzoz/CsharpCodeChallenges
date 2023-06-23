@@ -1,44 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
-namespace MehrZeichenDrucken
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        string result ;
+        string zeichen ;
+        int zahl ;
+        Console.WriteLine("geben sie ein zeichen ein : ");
+        zeichen = Console.ReadLine();
+        Console.WriteLine("geben sie ein zahl ein : ");
+        zahl= int.Parse(Console.ReadLine());
+
+        result = zeichenDrucken(zahl, zeichen);
+        Console.WriteLine(result);
+        Console.ReadLine();
+    }
+
+    public static string zeichenDrucken(int zahl, string zeichen)
+    {
+        string resultat = "";
+        do
         {
-            string text, result;
-            int zahl;
-
-            Console.WriteLine("Geben Sie ein Zeichen ein : ");
-            text= Console.ReadLine();
-            Console.WriteLine("Geben Sie ein Zahl ein : ");
-            zahl=int.Parse(Console.ReadLine());
-
-            result=zeichenDrucken(zahl, text);
-            Console.WriteLine(result);
-            Console.ReadLine();
-
-        }
-
-        public static string zeichenDrucken(int zahl, string text)
-        {
-
-            string result = "";
-            int i = 0;
-
-            do
-            {
-                result += text;
-                i++;
-                
-            } while (i < zahl);
-
-            return result;
-        }
+            resultat += zeichen;
+            zahl--;
+        } while (zahl > 0);
+         return resultat;
     }
 }
