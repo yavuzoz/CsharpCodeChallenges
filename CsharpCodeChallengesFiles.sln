@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gerade-ungeradeZahl", "gera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random-array-summen", "random-array-summen\random-array-summen.csproj", "{400335B0-F35C-4680-A1AC-7BFE9BF8E639}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "between-twonumber-summ", "between-twonumber-summ\between-twonumber-summ.csproj", "{A0F33EA5-2E8B-4AC2-9E2F-C9F9FE1AE260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{400335B0-F35C-4680-A1AC-7BFE9BF8E639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{400335B0-F35C-4680-A1AC-7BFE9BF8E639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{400335B0-F35C-4680-A1AC-7BFE9BF8E639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F33EA5-2E8B-4AC2-9E2F-C9F9FE1AE260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F33EA5-2E8B-4AC2-9E2F-C9F9FE1AE260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F33EA5-2E8B-4AC2-9E2F-C9F9FE1AE260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F33EA5-2E8B-4AC2-9E2F-C9F9FE1AE260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
